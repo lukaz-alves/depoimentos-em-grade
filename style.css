@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-de-fundo: hsl(214, 17%, 92%);
+    --fonte-cinza: hsl(224, 10%, 45%);
+    --card-fonte-branca:  hsl(0, 0%, 100%);
+    --card-roxo: hsl(263, 55%, 52%);
+    --card-cinza-medio: hsl(217, 19%, 35%);
+    --card-cinza-escuro: hsl(219, 29%, 14%);
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+    grid-template-rows: 5fr;
+}
+
+div {
+    background-color: var(--card-roxo);
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+}
