@@ -27,10 +27,9 @@ body {
 }
 
 .card {
-  width: 400px;
   border-radius: 10px;
   padding: 40px;
-  box-shadow: 50px 50px 50px rgba(0, 0, 0, 0.13);
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.15);
 }
 
 .header {
